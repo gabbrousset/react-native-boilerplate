@@ -1,4 +1,4 @@
-import React, { useState, useContext } from 'react';
+import { useState, useContext } from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { AppearanceProvider } from 'react-native-appearance';

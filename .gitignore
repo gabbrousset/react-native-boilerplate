@@ -1,5 +1,6 @@
-node_modules/**/*
-.expo/*
+node_modules/
+.expo/
+dist/
 npm-debug.*
 *.jks
 *.p8
@@ -8,7 +9,14 @@ npm-debug.*
 *.mobileprovision
 *.orig.*
 web-build/
-.env
 
 # macOS
 .DS_Store
+
+# yarn
+.yarn/
+!/.yarn/patches
+!/.yarn/plugins
+!/.yarn/releases
+!/.yarn/sdks
+!/.yarn/cache

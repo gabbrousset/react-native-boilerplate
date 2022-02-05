@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import { useContext } from 'react';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { ButtonGroup, Button, Layout, Text } from '@ui-kitten/components';
 import { StyleSheet } from 'react-native';
